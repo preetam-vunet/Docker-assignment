@@ -123,6 +123,7 @@ docker run --name my-python-server -p 8000:8000 -d python-http-server
 ```bash
 docker ps
 docker exec my-python-server ps aux | grep python
+docker logs my-python-server 
 ```
 
 ---
